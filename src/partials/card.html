@@ -1,0 +1,123 @@
+<section class="card">
+	<div class="card__container-main">
+		<h2 class="card__title">Создание карточки пациента</h2>
+		<form class="card__form">
+			<div class="card__row">
+				<input
+					type="text"
+					name="surname"
+					id="surname"
+					class="card__input card__input-text"
+					placeholder="Фамилия"
+				/>
+				<input type="text" name="name" id="name" class="card__input card__input-text" placeholder="Имя" />
+				<input
+					type="text"
+					name="fatherName"
+					id="fatherName"
+					class="card__input card__input-text"
+					placeholder="Отчество"
+				/>
+				<label for="otherPersonOrdering" class="hero__label card__label">
+					<span class="hero__text card__text">Записывает другой человек</span>
+					<input type="checkbox" class="hero__checkbox" name="otherPersonOrdering" id="otherPersonOrdering" />
+					<div class="hero__mark hero__mark-main"></div>
+				</label>
+			</div>
+			<div class="card__row card__row-phones">
+				<input
+					type="text"
+					name="phone"
+					id="phone"
+					class="card__input card__input-phone phone-mask-input"
+					placeholder="Номер телефона"
+				/>
+				<input
+					type="text"
+					name="phone2"
+					id="phone2"
+					class="card__input card__input-phone card__input-phone-hidden phone-mask-input"
+					placeholder="Номер телефона"
+				/>
+			</div>
+			<button class="btn-reset card__button-phone">Добавить номер телефона</button>
+			<div class="card__container">
+				<h4 class="card__title-h4">Пациент</h4>
+				<div class="card__row-pacient">
+					<div class="card__row">
+						<input
+							type="text"
+							name="surname-pacient"
+							id="surname-pacient"
+							class="card__input card__input-text"
+							placeholder="Фамилия"
+						/>
+						<input
+							type="text"
+							name="name-pacient"
+							id="name-pacient"
+							class="card__input card__input-text"
+							placeholder="Имя"
+						/>
+						<input
+							type="text"
+							name="fatherName-pacient"
+							id="fatherName-pacient"
+							class="card__input card__input-text"
+							placeholder="Отчество"
+						/>
+					</div>
+					<div class="card__row card__row-phones">
+						<input
+							type="text"
+							name="phone-pacient"
+							id="phone-pacient"
+							class="card__input card__input-phone phone-mask-input"
+							placeholder="Номер телефона"
+						/>
+						<input
+							type="text"
+							name="phone2-pacient"
+							id="phone2-pacient"
+							class="card__input card__input-phone card__input-phone-hidden phone-mask-input"
+							placeholder="Номер телефона"
+						/>
+					</div>
+					<button class="btn-reset card__button-phone">Добавить номер телефона</button>
+				</div>
+			</div>
+			<div class="card__row card__row-gender">
+				<label for="gender" class="hero__label card__label">
+					<span class="hero__text card__text card__text-gender">Выберите пол</span>
+					<input type="hidden" name="gender" id="gender" />
+					<div class="card__mark card__mark-radio" data-value="man">М</div>
+					<div class="card__mark card__mark-radio" data-value="woman">Ж</div>
+				</label>
+				<input
+					class="card__input-date card__input"
+					type="text"
+					id="date"
+					name="date"
+					readonly
+					placeholder="Дата рождения"
+				/>
+			</div>
+			<div class="card__row">
+				<div class="card__container-list">
+					<input
+						type="text"
+						name="region"
+						id="region"
+						class="card__input card__input-phone card__input-region"
+						placeholder="Введите регион проживания"
+					/>
+					<div class="card__container-list-inner">
+						<div class="card__list list-reset" data-simplebar></div>
+					</div>
+				</div>
+				<button class="btn-reset hero__button hero__button-blue card__button-check">Проверить по базе</button>
+			</div>
+		</form>
+	</div>
+	<button class="btn-reset hero__button hero__button-blue card__button-done">Записать на прием</button>
+</section>

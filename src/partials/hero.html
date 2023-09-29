@@ -1,0 +1,194 @@
+<section class="hero">
+	<form class="hero__form">
+		<textarea
+			class="hero__textarea hero__title"
+			name="dialogue-script"
+			id="dialogue-script"
+			placeholder="Скрипт диалога"
+		></textarea>
+		<h3 class="hero__title hero__title-h3">Заполните данные</h3>
+		<div class="hero__row hero__row-main">
+			<label for="first" class="hero__label">
+				<span class="hero__text">Первичный приём</span>
+				<input type="checkbox" class="hero__checkbox" name="first" id="first" />
+				<div class="hero__mark hero__mark-main"></div>
+			</label>
+			<div class="hero__toggle hero__toggle-main" id="source" data-value="null">
+				<div class="hero__control">
+					<span class="hero__text-toggle">Источник обращения</span>
+					<svg
+						class="hero__icon-triangle"
+						xmlns="http://www.w3.org/2000/svg"
+						width="30"
+						height="30"
+						viewBox="0 0 30 30"
+						fill="none"
+					>
+						<path
+							d="M15.366 25.5C14.9811 26.1667 14.0189 26.1667 13.634 25.5L4.54071 9.75C4.15581 9.08333 4.63693 8.25 5.40673 8.25L23.5933 8.25C24.3631 8.25 24.8442 9.08333 24.4593 9.75L15.366 25.5Z"
+							fill="#E15335"
+						/>
+					</svg>
+				</div>
+				<ul class="list-reset hero__list">
+					<li class="hero__item hero__text" data-value="Веб-сайт">Веб-сайт</li>
+					<li class="hero__item hero__text" data-value="Реклама">Реклама</li>
+					<li class="hero__item hero__text" data-value="Социальные сети">Социальные сети</li>
+				</ul>
+			</div>
+			<div class="hero__toggle hero__toggle-main" id="city" data-value="null">
+				<div class="hero__control">
+					<span class="hero__text-toggle">Выберите город</span>
+					<svg
+						class="hero__icon-triangle"
+						xmlns="http://www.w3.org/2000/svg"
+						width="30"
+						height="30"
+						viewBox="0 0 30 30"
+						fill="none"
+					>
+						<path
+							d="M15.366 25.5C14.9811 26.1667 14.0189 26.1667 13.634 25.5L4.54071 9.75C4.15581 9.08333 4.63693 8.25 5.40673 8.25L23.5933 8.25C24.3631 8.25 24.8442 9.08333 24.4593 9.75L15.366 25.5Z"
+							fill="#E15335"
+						/>
+					</svg>
+				</div>
+				<ul class="list-reset hero__list">
+					<li class="hero__item hero__text" data-value="Алматы">Алматы</li>
+					<li class="hero__item hero__text" data-value="Челябинск">Челябинск</li>
+					<li class="hero__item hero__text" data-value="Екатеринбург">Екатеринбург</li>
+					<li class="hero__item hero__text" data-value="Нижний Новгород">Нижний Новгород</li>
+					<li class="hero__item hero__text" data-value="Казань">Казань</li>
+					<li class="hero__item hero__text" data-value="Краснодар">Краснодар</li>
+					<li class="hero__item hero__text" data-value="Красноярск">Красноярск</li>
+					<li class="hero__item hero__text" data-value="Новосибирск">Новосибирск</li>
+					<li class="hero__item hero__text" data-value="Пермь">Пермь</li>
+					<li class="hero__item hero__text" data-value="Самара">Самара</li>
+					<li class="hero__item hero__text" data-value="Тюмень">Тюмень</li>
+					<li class="hero__item hero__text" data-value="Уфа">Уфа</li>
+				</ul>
+			</div>
+			<div class="hero__filials" data-value="">
+				<div class="hero__filial" data-value="ДокторОст">ДокторОст</div>
+				<div class="hero__filial" data-value="Дети Индиго">Дети Индиго</div>
+			</div>
+		</div>
+		<div class="hero__row">
+			<label for="niceReason" class="hero__label">
+				<span class="hero__text">Первичный приём</span>
+				<input type="checkbox" class="hero__checkbox" name="niceReason" id="niceReason" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="ourPatient" class="hero__label">
+				<span class="hero__text">Наш пациент</span>
+				<input type="checkbox" class="hero__checkbox" name="ourPatient" id="ourPatient" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="uzi" class="hero__label">
+				<span class="hero__text">УЗИ</span>
+				<input type="checkbox" class="hero__checkbox" name="uzi" id="uzi" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="earlyCaller" class="hero__label">
+				<span class="hero__text">Ранее звонивший</span>
+				<input type="checkbox" class="hero__checkbox" name="earlyCaller" id="earlyCaller" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="otkazPervichnoyZapisi" class="hero__label">
+				<span class="hero__text">Отказ первичной записи</span>
+				<input type="checkbox" class="hero__checkbox" name="otkazPervichnoyZapisi" id="otkazPervichnoyZapisi" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="ill" class="hero__label">
+				<span class="hero__text">Болезнь / командировка</span>
+				<input type="checkbox" class="hero__checkbox" name="ill" id="ill" />
+				<div class="hero__mark"></div>
+			</label>
+			<div class="hero__container-label-toggle">
+				<label for="otherOurCenter" class="hero__label">
+					<span class="hero__text">Перенаправлен в другой МЦ (наш)</span>
+					<input type="checkbox" class="hero__checkbox" name="otherOurCenter" id="otherOurCenter" />
+					<div class="hero__mark"></div>
+				</label>
+				<div class="hero__toggle" id="medCenter" data-value="null">
+					<div class="hero__control hero__control-not-main">
+						<span class="hero__text-toggle hero__text-toggle-empty"></span>
+						<svg
+							class="hero__icon-triangle"
+							xmlns="http://www.w3.org/2000/svg"
+							width="30"
+							height="30"
+							viewBox="0 0 30 30"
+							fill="none"
+						>
+							<path
+								d="M15.366 25.5C14.9811 26.1667 14.0189 26.1667 13.634 25.5L4.54071 9.75C4.15581 9.08333 4.63693 8.25 5.40673 8.25L23.5933 8.25C24.3631 8.25 24.8442 9.08333 24.4593 9.75L15.366 25.5Z"
+								fill="#E15335"
+							/>
+						</svg>
+					</div>
+					<ul class="list-reset hero__list">
+						<li class="hero__item hero__text-not-main" data-value="Веб-сайт">Веб-сайт</li>
+						<li class="hero__item hero__text-not-main" data-value="Реклама">Реклама</li>
+						<li class="hero__item hero__text-not-main" data-value="Социальные сети">Социальные сети</li>
+						<li class="hero__item hero__text-not-main" data-value="Веб-сайт">Веб-сайт</li>
+						<li class="hero__item hero__text-not-main" data-value="Реклама">Реклама</li>
+						<li class="hero__item hero__text-not-main" data-value="Социальные сети">Социальные сети</li>
+					</ul>
+				</div>
+			</div>
+			<label for="notHaveNecessaryStuff" class="hero__label">
+				<span class="hero__text">Нет нужной специализации (аппарата)</span>
+				<input type="checkbox" class="hero__checkbox" name="notHaveNecessaryStuff" id="notHaveNecessaryStuff" />
+				<div class="hero__mark"></div>
+			</label>
+			<div class="hero__container-label-toggle">
+				<label for="onlineQuestion" class="hero__label">
+					<span class="hero__text">Интернет вопрос</span>
+					<input type="checkbox" class="hero__checkbox" name="onlineQuestion" id="onlineQuestion" />
+					<div class="hero__mark"></div>
+				</label>
+				<div class="hero__toggle" id="question" data-value="null">
+					<div class="hero__control hero__control-not-main">
+						<span class="hero__text-toggle hero__text-toggle-empty"></span>
+						<svg
+							class="hero__icon-triangle"
+							xmlns="http://www.w3.org/2000/svg"
+							width="30"
+							height="30"
+							viewBox="0 0 30 30"
+							fill="none"
+						>
+							<path
+								d="M15.366 25.5C14.9811 26.1667 14.0189 26.1667 13.634 25.5L4.54071 9.75C4.15581 9.08333 4.63693 8.25 5.40673 8.25L23.5933 8.25C24.3631 8.25 24.8442 9.08333 24.4593 9.75L15.366 25.5Z"
+								fill="#E15335"
+							/>
+						</svg>
+					</div>
+					<ul class="list-reset hero__list">
+						<li class="hero__item hero__text-not-main" data-value="Веб-сайт">Веб-сайт</li>
+						<li class="hero__item hero__text-not-main" data-value="Реклама">Реклама</li>
+						<li class="hero__item hero__text-not-main" data-value="Социальные сети">Социальные сети</li>
+						<li class="hero__item hero__text-not-main" data-value="Веб-сайт">Веб-сайт</li>
+						<li class="hero__item hero__text-not-main" data-value="Реклама">Реклама</li>
+						<li class="hero__item hero__text-not-main" data-value="Социальные сети">Социальные сети</li>
+					</ul>
+				</div>
+			</div>
+			<label for="declinedCall" class="hero__label">
+				<span class="hero__text">Сорванный звонок</span>
+				<input type="checkbox" class="hero__checkbox" name="declinedCall" id="declinedCall" />
+				<div class="hero__mark"></div>
+			</label>
+			<label for="asnwerToReply" class="hero__label">
+				<span class="hero__text">Ответ на отзыв</span>
+				<input type="checkbox" class="hero__checkbox" name="asnwerToReply" id="asnwerToReply" />
+				<div class="hero__mark"></div>
+			</label>
+		</div>
+		<div class="hero__row-buttons">
+			<button class="btn-reset hero__button hero__button-orange">Спам</button>
+			<button class="btn-reset hero__button hero__button-blue hero__button-next">Далее</button>
+		</div>
+	</form>
+</section>

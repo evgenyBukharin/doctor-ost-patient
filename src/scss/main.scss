@@ -1,0 +1,12 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/wrapper";
+@import "./components/hero";
+@import "./components/simplebar";
+@import "./components/card";
+@import "./components/datepicker";

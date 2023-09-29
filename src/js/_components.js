@@ -1,0 +1,10 @@
+import "./components/toggle-list";
+import "./components/phone-button";
+import "./components/phone-input-mask";
+import "./components/card-hidden-container-button";
+import "./components/gender-picker";
+import "./components/date-label";
+import "./components/city-filials";
+import "./components/regions";
+import "./components/custom-scrollbar";
+import "./components/next-button";
