@@ -26,6 +26,14 @@
 		overflow: hidden;
 		transition: max-height 0.6s ease;
 		will-change: max-height;
+		&-buttons {
+			&-both {
+				width: 100%;
+				display: flex;
+				justify-content: flex-end;
+				gap: 14px;
+			}
+		}
 		&-list {
 			position: relative;
 			max-width: 442px;

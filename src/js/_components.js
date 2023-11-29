@@ -9,3 +9,4 @@ import "./components/regions";
 import "./components/custom-scrollbar";
 import "./components/next-button";
 import "./components/date-label";
+import "./components/bounded-inputs";

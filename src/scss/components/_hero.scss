@@ -124,6 +124,11 @@
 			gap: 30px;
 			padding-top: 53px;
 		}
+		&-toggler {
+			&-bot {
+				margin-bottom: 10px;
+			}
+		}
 	}
 	&__toggle {
 		position: relative;

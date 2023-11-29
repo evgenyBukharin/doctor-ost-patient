@@ -4,3 +4,9 @@ nextButton.addEventListener("click", (e) => {
 	e.preventDefault();
 	cardSection.classList.add("card-visible");
 });
+
+const returnButton = document.getElementById("returnButton");
+returnButton.addEventListener("click", (e) => {
+	e.preventDefault();
+	cardSection.classList.remove("card-visible");
+});

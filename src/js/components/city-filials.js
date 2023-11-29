@@ -25,6 +25,10 @@ const observer = new MutationObserver(function (mutations) {
 			// event was triggered
 			// mutation.target.textContent = "Attribute of the element changed";
 			let currentValue = mutation.target.getAttribute("data-value");
+
+			localStorage.setItem("currentCity", currentValue);
+			window.dispatchEvent(new CustomEvent("newCurrentCity"));
+
 			if (doctorOstCities.includes(currentValue) && detiIndigoCities.includes(currentValue)) {
 				mutation.target.classList.add("hero__toggle-show-filialls");
 			} else {
