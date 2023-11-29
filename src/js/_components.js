@@ -10,3 +10,5 @@ import "./components/custom-scrollbar";
 import "./components/next-button";
 import "./components/date-label";
 import "./components/bounded-inputs";
+import "./components/decline-checkbox";
+import "./components/decline-reason-select";
